@@ -22,8 +22,6 @@ public class SchoolMark {
             while ((str = in.readLine()) != null){
                 process(str);
             }
-        } catch (FileNotFoundException e) {
-            System.out.println(e);
         } catch (IOException e1){
             System.out.println(e1);
         }
