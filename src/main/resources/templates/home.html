@@ -1,11 +1,11 @@
-<!-- src/main/resources/templates/home.html -->
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
 <head>
-    <title>Home</title>
+    <title>Spring Security Example</title>
 </head>
 <body>
-<h1>Welcome Home!</h1>
-<p>You are logged in successfully.</p>
+<h1>Welcome!</h1>
+
+<p>Click <a th:href="@{/hello}">here</a> to see a greeting.</p>
 </body>
 </html>
