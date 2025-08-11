@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <title>Healthy Page</title>
+</head>
+<body>
+<h1>Hello <span sec:authentication="name">User</span>!</h1>
+</body>
+</html>

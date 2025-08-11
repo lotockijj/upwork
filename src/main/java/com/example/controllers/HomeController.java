@@ -10,4 +10,9 @@ public class HomeController {
     public String home() {
         return "home"; // home.html in templates
     }
+
+    @GetMapping("/healthy")
+    public String healthCheck() {
+        return "healthy"; // home.html in templates
+    }
 }
